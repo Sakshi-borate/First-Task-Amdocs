@@ -1,0 +1,12 @@
+{
+    "chat.mcp.serverSampling": {
+
+    },
+    "github.copilot.chat.mcp.enabled": true,
+    "github.copilot.chat.mcp.servers": {
+        "task-manager": {
+            "command": "node",
+            "args": ["C:/Users/sakshbor/OneDrive - AMDOCS/Documents/GitHub/First-Task/build/index.js"]
+        }
+    }
+}
