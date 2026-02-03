@@ -1,0 +1,22 @@
+{
+  "name": "task-manager-mcp",
+  "version": "1.0.0",
+  "description": "A beginner-friendly MCP server for managing tasks",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js"
+  },
+  "keywords": ["mcp", "task-manager", "model-context-protocol"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
